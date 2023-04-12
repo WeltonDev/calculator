@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f7f7f7;
+  background-color: #b3adad;
 }
 
 .calculator {
@@ -19,6 +19,8 @@ body {
   box-shadow: 0px 4px 4px #00000040;
   font-family: "Helvetica Neue", sans-serif;
   overflow: hidden;
+  box-shadow: 10px 10px 30px black;
+  padding: 0.5rem
 }
 
 .result {
@@ -47,6 +49,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button-zero {
@@ -62,7 +65,7 @@ body {
 }
 
 button:active {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .bg-blue {
