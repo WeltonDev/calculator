@@ -71,3 +71,23 @@ button:active {
 .bg-blue {
   background-color: #3204ff;
 }
+
+@media (max-width: 400px)  {
+  .calculator {
+    width: 100vw;
+    height: 100vh;
+    padding: 1px;
+  }
+
+  .result {
+    height: 13vh;
+  }
+
+  .buttons {
+    height: 90%;
+  }
+
+  .buttons button {
+    height: 100%;
+  }
+}
