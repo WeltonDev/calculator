@@ -73,9 +73,10 @@ button:active {
 }
 
 @media (max-width: 425px)  {
+
   .calculator {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     padding: 1px;
     border-radius: 0;
   }
