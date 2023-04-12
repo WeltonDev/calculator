@@ -83,6 +83,7 @@ button:active {
 
   .result {
     height: 13vh;
+    font-size: 3.75rem;
   }
 
   .buttons {
